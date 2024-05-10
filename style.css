@@ -1,0 +1,101 @@
+body {
+  box-sizing: border-box;
+  background-color: #fefaf6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 50px 19px;
+  gap: 2rem;
+}
+.name{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.id {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0;
+ 
+}
+.id img{
+  border-radius: 100%;
+}
+.item {
+  gap: 2rem;
+  display: grid;
+ 
+}
+.child1 {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.daniel {
+
+  border-radius: 10px;
+  color: white;
+  background-color: hsl(263, 69%, 50%);
+  padding: 20px;
+  border-radius: 15px;
+}
+.jonathan {
+ 
+  max-height: auto;
+  border-radius: 15px;
+  background-color: #31363f;
+  color: white;
+  padding: 20px;
+}
+.child2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.jean {
+
+  max-height: auto;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background-color:white;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+.abrams {
+ 
+  max-height: auto;
+  border-radius: 15px;
+ 
+  background-color: hsl(219, 29%, 14%);
+  padding: 30px;
+  color: white;
+}
+.menu2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 1px blue;
+  grid-template-columns: 1fr 2fr;
+}
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .container,
+  .container1,
+  .child1,
+  .child2,
+  .menu2 {
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+}
